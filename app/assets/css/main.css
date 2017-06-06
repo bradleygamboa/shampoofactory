@@ -10,11 +10,9 @@ html {
     background-color: white;
 }
 
-.bio{
-    max-width: 75%;
-    font-size: 16px;
-    margin-left: 12%;
-    margin-top: 10px;
+#shop {
+	padding-top: 8px;
+	font-size: 24px;
 }
 
 
