@@ -17,15 +17,8 @@
     <link href="app/assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="app/assets/css/main.css" rel="stylesheet">
     <link href="app/assets/css/full-slider.css" rel="stylesheet">
-    <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,700' rel='stylesheet' type='text/css'>
-    <!-- Fav and touch icons -->
-    <!--     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="app/assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="app/assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="app/assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="app/assets/ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="app/assets/ico/favicon.png"> -->
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="app/assets/ico/favicon.png"> -->
 </head>
 
 <body>
@@ -51,26 +44,48 @@
     <!-- END NAVBAR -->
     <!-- CONTAINER -->
     <!-- Full Page Image Background Carousel Header -->
+    <!-- Full Page Image Background Carousel Header -->
     <header id="myCarousel" class="carousel slide">
         <!-- Wrapper for Slides -->
         <div class="carousel-inner">
             <div class="item active">
                 <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('app/assets/img/shampoo.jpg');"></div>
-                <!--                <div class="carousel-caption">
-                    <h2>Cynthia Valdez</h2>
-                </div> -->
+                <div class="fill" style="background-image:url('app/assets/img/1.jpeg');"></div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('app/assets/img/2.jpeg');"></div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('app/assets/img/4.jpeg');"></div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('app/assets/img/5.jpeg');"></div>
             </div>
         </div>
-      <div class="text-center" style="background-color: #f6a2a2; font-size: 32px;">
-        <a href="#">SHOP NOW</a></li>
-      </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </header>
     <!-- /.container -->
     <!-- jQuery -->
     <script src="app/assets/js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="app/assets/js/bootstrap.min.js"></script>
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 </body>
 
 </html>
